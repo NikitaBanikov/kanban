@@ -1,0 +1,182 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  width: 1235px;
+  height: 700px;
+}
+
+.App-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  background-color: #0067A3;
+}
+
+.Unfold-menu {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  width: 134px;
+  height: 60px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.Unfold-menu__item {
+  cursor: pointer;
+  margin: 7px;
+  font-size: 14px;
+}
+
+.Unfold-menu__item:hover {
+  background-color: #DEDEDE;
+}
+
+.Romb {
+  position: absolute;
+  top: -5px;
+  right: 42px;
+  width: 11px;
+  height: 11px;
+}
+
+.hide {
+  display: none;
+}
+
+.App-header__title {
+  font-size: 28px;
+  color: white;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1206px;
+}
+
+.User-container {
+  display: flex;
+  align-items: center;
+}
+
+.userAvatar {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.arrowDown {
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color:#0079BF;
+}
+
+.List {
+  margin-top: 20px;
+  width: 282px;
+  background-color: #EBECF0;
+  border-radius: 10px;
+}
+
+.List-title {
+  margin: 0;
+  padding: 12px;
+}
+
+.List-button {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 11px;
+  cursor: pointer;
+  color: #5E6C84;
+  background-color: transparent;
+  font-size: 18px;
+  border: none;
+}
+
+.List-button::before {
+  content: url('../public/Plus.svg');
+  margin: 3px;
+}
+
+.Submit {
+  width: 102px;
+  height: 29px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-bottom: 7px;
+  margin-left: 11px;
+  cursor: pointer;
+  color: white;
+  background-color: #0079BF;
+  border: none;
+  border-radius: 5px;
+}
+
+.Task-info-container {
+  display: flex;
+  gap: 36px;
+}
+
+.Task-info {
+  color: white;
+}
+
+/* card */
+
+.Card {
+  display: flex;
+  justify-content: center;
+  margin: 15px 12px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.Card-input {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 7px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.Card-input:focus {
+  outline: none;
+}
+
+/* card */
+
+.Dropdown {
+  margin: 3px 12px;
+  width: 258px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Dropdown__img {
+  cursor: pointer;
+  width: 18px;
+  height: 12px;
+  padding: 11px;
+}
+
+.Main-unfold-menu {
+  margin: 3px 12px;
+  width: 258px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
